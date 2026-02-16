@@ -1,7 +1,6 @@
 
-// Fixed: Using @firebase scoped packages to ensure named exports like initializeApp and getAuth are correctly resolved
-import { initializeApp } from '@firebase/app';
-import { getAuth } from '@firebase/auth';
+import { initializeApp } from 'firebase/app';
+import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
   apiKey: "AIzaSyD-a8eacOeJrOk68MeKSxGM0NoNbRlfeoE",
@@ -13,8 +12,8 @@ const firebaseConfig = {
   measurementId: "G-2JFQFK4XJV"
 };
 
-// Initialize Firebase with the modular initializeApp function from @firebase/app to fix resolution error
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-// Export the auth instance using the modular getAuth function from @firebase/auth to fix resolution error
+// Export the auth instance
 export const auth = getAuth(app);
