@@ -1,0 +1,20 @@
+
+export const APP_CONFIG = {
+  LEGAL_NAME: 'RADIANTVAULT VENTURES PRIVATE LIMITED',
+  TDS_RATE: 0.01, // 1% Section 194S
+  DEFAULT_COMMISSION: 0.001, // 0.1%
+  GST_RATE: 0.18, // 18% on fees
+  TRADE_EXPIRY_MINUTES: 15,
+  SUPPORT_EMAIL: 'radiantvaultventures@gmail.com',
+  SUPPORT_PHONES: ['7892193944', '7892021103'],
+  OFFICE_ADDRESS: 'Bangalore 560068, Karnataka, India',
+  FIU_REG_ID: 'REID-VA00058829'
+};
+
+export const MOCK_PAYMENT_METHODS = ['UPI', 'IMPS', 'NEFT', 'RTGS'];
+
+export const MOCK_PRICES = {
+  USDT: 91.45,
+  BTC: 5624150.00,
+  ETH: 215400.00
+};

@@ -1,0 +1,7 @@
+{
+  "name": "RadiantVaultOTC",
+  "description": "Secure India-compliant P2P crypto trading platform focused on USDT, BTC, and ETH with integrated KYC and FIU-aligned compliance.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
