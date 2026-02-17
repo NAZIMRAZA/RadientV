@@ -89,7 +89,7 @@ const App: React.FC = () => {
       <div className="min-h-screen flex flex-col bg-[#030712] text-[#f3f4f6]">
         <Navigation user={user} onLogout={handleLogout} />
         
-        <main className="flex-grow w-full max-w-full overflow-x-hidden">
+        <main className="flex-grow w-full max-w-full overflow-x-hidden pt-16 md:pt-20">
           <Routes>
             <Route path="/" element={
               <div className="space-y-16 md:space-y-32 pb-16 md:pb-32">
