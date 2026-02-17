@@ -138,7 +138,7 @@ const Navigation: React.FC<NavigationProps> = ({ user, onLogout }) => {
               <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12 2L4.5 9.5L12 17L19.5 9.5L12 2ZM12 4.8L16.7 9.5L12 14.2L7.3 9.5L12 4.8ZM12 18L4.5 10.5L3.1 11.9L12 20.8L20.9 11.9L19.5 10.5L12 18Z" />
               </svg>
-              About Our Details in Binance Application
+              Trade With Binance
             </button>
 
             <div className="pt-4 mt-4 border-t border-white/5 space-y-4">

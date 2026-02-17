@@ -34,8 +34,8 @@ const BinanceDetailsPanel: React.FC<BinanceDetailsPanelProps> = ({ isOpen, onClo
       {/* Header / Close Bar */}
       <div className="flex items-center justify-between p-6 border-b border-white/5">
         <div className="flex flex-col">
-          <span className="text-[10px] font-black text-cyan-400 font-orbitron tracking-widest uppercase">Binance Application</span>
-          <h2 className="text-xl font-black text-white font-orbitron tracking-tighter">MERCHANT DETAILS</h2>
+          <span className="text-[10px] font-black text-cyan-400 font-orbitron tracking-widest uppercase">Verified Merchant</span>
+          <h2 className="text-xl font-black text-white font-orbitron tracking-tighter">TRADE WITH BINANCE</h2>
         </div>
         <button 
           onClick={onClose}
